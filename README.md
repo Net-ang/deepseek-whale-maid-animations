@@ -1,4 +1,4 @@
-﻿# 深深 · 形象美术资源（GitHub 网页版上传包）
+# 深深 · 形象美术资源（GitHub 网页版上传包）
 
 生成时间：2026-11-02
 来源：`E:\DSH-PET\形象包`
@@ -94,3 +94,10 @@ GitHub 自带的建议 `Consider creating the file in a local clone and pushing 
 - commit message：`batch-1: 01_share-art.zip .002-.003` 这种写法，批次内卷号范围写在后面，方便回溯。
 - 第一次提交的 message 是 `probe-a`，只包含 `01_share-art.zip.001`：那是用来判定「限制是单文件还是单次提交总量」的探针提交。结论是总量限制，所以后续都按 2 卷/提交推进；这条历史保留不删，用于说明来龙去脉。
 - 解压仍然需要 7-Zip：`7z x 01_share-art.zip.001 -o01_share-art`，同一组的 `.001`～`.020` 必须齐全。
+
+## 六、版权与许可
+
+- 完整声明：**`NOTICE.md`**（逐项出处、改动说明、再分发要求）
+- 许可证：**`LICENSE`**（MIT；分卷内各包保留各自的 MIT 声明）
+- 一句话版本：角色与动画素材来自 [MerZlin/dsh-pet-indesktop](https://github.com/MerZlin/dsh-pet-indesktop)（MIT，版权归 MerZlin）；形象包代码与冬装设计稿出自 DSH-PET 工作区（MIT）；额外动作拓展 `cortico-world-extra-actions` 由 Daniele贤狼赫萝 与 奶糖_Net 制作（MIT）；Coopanion / cortico-world-desktop-pet 为 Pal AI Lab 的 AGPL-3.0-or-later 项目，本仓库**不含**其源代码。
+- 再分发请保留 `NOTICE.md`、`LICENSE` 以及每个分卷包内的 `NOTICE.txt` / `figure.json` credits。
